@@ -10,9 +10,9 @@ document.getElementById("c").innerHTML = "gamma = "+gamma;
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext("2d");
 var centru = {x:canvas.width/2, y:canvas.height/2}
-var latura_dreptungi = 60;
+var latura_patrat = 60;
 context.clearRect(0, 0, canvas.width, canvas.height);
 context.fillStyle = "#6A0888";
 context.beginPath();
-context.fillRect(200, 180,evt.gamma, 80);
+context.fillRect(180, 120,evt.gamma, 50);
 }
